@@ -80,7 +80,7 @@ customerLogInPage.prototype = Object.create({}, {
 
     }},
 
-    depositMessage: {get : function () { return element(by.css('[ng-show=message1]'))}},
+    depositMessage: {get : function () { return element(by.css('[ng-show=message]'))}},
 
     depositMessagetxt :{get: function () {
         return this.depositMessage.getText();

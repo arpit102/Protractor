@@ -26,3 +26,17 @@
 [2017-07-01 17:32:08.067] [INFO] protractorLog4js - ------------Enter Amount in Amout textbox -----------------------------------------
 [2017-07-01 17:32:08.067] [INFO] protractorLog4js - ------------Deposit button Clicked -----------------------------------------
 [2017-07-01 17:32:08.067] [INFO] protractorLog4js - ------------Exppect : Deposit Message -----------------------------------------
+[2017-07-01 17:36:54.716] [INFO] protractorLog4js - ------------LAUNCHED URL-----------------------------------------
+[2017-07-01 17:37:03.092] [INFO] protractorLog4js - ------------Expect: Bank Name Verify-----------------------------------------
+[2017-07-01 17:37:03.094] [INFO] protractorLog4js - ------------Expect: Customer LogIn button Verify-----------------------------------------
+[2017-07-01 17:37:03.096] [INFO] protractorLog4js - ------------Expect: Bank Manager LogIn button Verify-----------------------------------------
+[2017-07-01 17:37:04.933] [INFO] protractorLog4js - ------------Customer Button Click-----------------
+[2017-07-01 17:37:04.933] [INFO] protractorLog4js - ------------Select Name from Customer Dropdown-----------------
+[2017-07-01 17:37:04.949] [INFO] protractorLog4js - ------------Click on Customer LogIN button-----------------
+[2017-07-01 17:37:04.949] [INFO] protractorLog4js - ------------Expect : Customer Account No-----------------
+[2017-07-01 17:37:04.949] [INFO] protractorLog4js - ------------Expect: Initial Customer Account Balance-----------------
+[2017-07-01 17:37:04.949] [INFO] protractorLog4js - ------------Expect: Customer Account Currency-----------------
+[2017-07-01 17:37:06.503] [INFO] protractorLog4js - ------------Deposit Menu Button Clicked -----------------------------------------
+[2017-07-01 17:37:06.504] [INFO] protractorLog4js - ------------Enter Amount in Amout textbox -----------------------------------------
+[2017-07-01 17:37:06.504] [INFO] protractorLog4js - ------------Deposit button Clicked -----------------------------------------
+[2017-07-01 17:37:06.504] [INFO] protractorLog4js - ------------Exppect : Deposit Message -----------------------------------------
