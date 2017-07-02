@@ -3,6 +3,8 @@ var log4js = require('log4js');
 // An example configuration file.
 exports.config = {
 	
+	resultJsonOutputFile:'logs/ConsoleLog.json',
+	
   directConnect: true,
 
     params: require('./data/testdata.json'),
@@ -25,6 +27,7 @@ exports.config = {
                     maxLogSize: 20480,
                     backups: 10
                 },
+				
 				
             ]
         });
@@ -105,7 +108,8 @@ exports.config = {
   // protractor is called.
  // specs: ['example_spec.js'],
 
-  specs: ['./Specs/CustomerLogInTest.js'],
+specs: ['./Specs/CustomerLogInTest.js'],
+ //specs: ['./Specs/BankHomePageTest.js'],
      // specs: ['./Home/AngularPageTest.js'],
 
   // Options to be passed to Jasmine...

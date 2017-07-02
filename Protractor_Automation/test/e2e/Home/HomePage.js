@@ -5,6 +5,8 @@ var AngularPage = function () {
 };
 
 AngularPage.prototype = Object.create({}, {
+	
+	
     todoText: { get: function () { return element(by.model('todoText')); }},
     addButton: { get: function () { return element(by.css('[value="add"]')); }},
     yourName: { get: function () { return element(by.model('yourName')); }},

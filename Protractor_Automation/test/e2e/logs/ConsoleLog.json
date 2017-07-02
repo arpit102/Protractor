@@ -1,0 +1,29 @@
+[
+  {
+    "description": "Bank homepage should verify the Bank Home Page",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 8042
+  },
+  {
+    "description": "Bank homepage should verify the Customer LogIn button click",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 2020
+  },
+  {
+    "description": "Bank homepage should verify Deposit Amount",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 1087
+  }
+]

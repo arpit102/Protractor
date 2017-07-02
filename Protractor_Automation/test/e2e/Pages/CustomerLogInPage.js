@@ -9,6 +9,8 @@ var customerLogInPage = function () {
 };
 
 customerLogInPage.prototype = Object.create({}, {
+	
+	
 
     drpdownName:{ get: function () { return element.one(by.model('custId')); }},
 
@@ -76,8 +78,6 @@ customerLogInPage.prototype = Object.create({}, {
 
 	  var tt=customerPage.amounttodeposit.getAttribute('ng-model')
        
-		
-
     }},
 
     depositMessage: {get : function () { return element(by.css('[ng-show=message]'))}},
@@ -85,9 +85,6 @@ customerLogInPage.prototype = Object.create({}, {
     depositMessagetxt :{get: function () {
         return this.depositMessage.getText();
     }},
-
-
-
 });
 
 module.exports = customerLogInPage;

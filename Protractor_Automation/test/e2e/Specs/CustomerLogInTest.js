@@ -18,8 +18,7 @@ describe('Bank homepage', function () {
     //Load Pages in Constructor
     beforeEach(function () {
         pageBankHome = new BankHomePage();
-        customerPage = new customerLogInPage();
-		
+        customerPage = new customerLogInPage();		
 		
     });
 

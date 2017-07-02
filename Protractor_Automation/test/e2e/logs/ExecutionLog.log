@@ -1,42 +1,56 @@
-[2017-07-01 17:24:26.282] [INFO] protractorLog4js - ------------LAUNCHED URL-----------------------------------------
-[2017-07-01 17:24:36.128] [INFO] protractorLog4js - ------------Expect: Bank Name Verify-----------------------------------------
-[2017-07-01 17:24:36.128] [INFO] protractorLog4js - ------------Expect: Customer LogIn button Verify-----------------------------------------
-[2017-07-01 17:24:36.128] [INFO] protractorLog4js - ------------Expect: Bank Manager LogIn button Verify-----------------------------------------
-[2017-07-01 17:24:38.963] [INFO] protractorLog4js - ------------Customer Button Click-----------------
-[2017-07-01 17:24:38.963] [INFO] protractorLog4js - ------------Select Name from Customer Dropdown-----------------
-[2017-07-01 17:24:38.979] [INFO] protractorLog4js - ------------Click on Customer LogIN button-----------------
-[2017-07-01 17:24:38.979] [INFO] protractorLog4js - ------------Expect : Customer Account No-----------------
-[2017-07-01 17:24:38.979] [INFO] protractorLog4js - ------------Expect: Initial Customer Account Balance-----------------
-[2017-07-01 17:24:38.994] [INFO] protractorLog4js - ------------Expect: Customer Account Currency-----------------
-[2017-07-01 17:24:40.970] [INFO] protractorLog4js - ------------Deposit Menu Button Clicked -----------------------------------------
-[2017-07-01 17:24:40.970] [INFO] protractorLog4js - ------------Enter Amount in Amout textbox -----------------------------------------
-[2017-07-01 17:24:40.986] [INFO] protractorLog4js - ------------Deposit button Clicked -----------------------------------------
-[2017-07-01 17:24:40.986] [INFO] protractorLog4js - ------------Exppect : Deposit Message -----------------------------------------
-[2017-07-01 17:31:55.986] [INFO] protractorLog4js - ------------LAUNCHED URL-----------------------------------------
-[2017-07-01 17:32:04.332] [INFO] protractorLog4js - ------------Expect: Bank Name Verify-----------------------------------------
-[2017-07-01 17:32:04.335] [INFO] protractorLog4js - ------------Expect: Customer LogIn button Verify-----------------------------------------
-[2017-07-01 17:32:04.338] [INFO] protractorLog4js - ------------Expect: Bank Manager LogIn button Verify-----------------------------------------
-[2017-07-01 17:32:06.226] [INFO] protractorLog4js - ------------Customer Button Click-----------------
-[2017-07-01 17:32:06.226] [INFO] protractorLog4js - ------------Select Name from Customer Dropdown-----------------
-[2017-07-01 17:32:06.242] [INFO] protractorLog4js - ------------Click on Customer LogIN button-----------------
-[2017-07-01 17:32:06.243] [INFO] protractorLog4js - ------------Expect : Customer Account No-----------------
-[2017-07-01 17:32:06.244] [INFO] protractorLog4js - ------------Expect: Initial Customer Account Balance-----------------
-[2017-07-01 17:32:06.248] [INFO] protractorLog4js - ------------Expect: Customer Account Currency-----------------
-[2017-07-01 17:32:08.067] [INFO] protractorLog4js - ------------Deposit Menu Button Clicked -----------------------------------------
-[2017-07-01 17:32:08.067] [INFO] protractorLog4js - ------------Enter Amount in Amout textbox -----------------------------------------
-[2017-07-01 17:32:08.067] [INFO] protractorLog4js - ------------Deposit button Clicked -----------------------------------------
-[2017-07-01 17:32:08.067] [INFO] protractorLog4js - ------------Exppect : Deposit Message -----------------------------------------
-[2017-07-01 17:36:54.716] [INFO] protractorLog4js - ------------LAUNCHED URL-----------------------------------------
-[2017-07-01 17:37:03.092] [INFO] protractorLog4js - ------------Expect: Bank Name Verify-----------------------------------------
-[2017-07-01 17:37:03.094] [INFO] protractorLog4js - ------------Expect: Customer LogIn button Verify-----------------------------------------
-[2017-07-01 17:37:03.096] [INFO] protractorLog4js - ------------Expect: Bank Manager LogIn button Verify-----------------------------------------
-[2017-07-01 17:37:04.933] [INFO] protractorLog4js - ------------Customer Button Click-----------------
-[2017-07-01 17:37:04.933] [INFO] protractorLog4js - ------------Select Name from Customer Dropdown-----------------
-[2017-07-01 17:37:04.949] [INFO] protractorLog4js - ------------Click on Customer LogIN button-----------------
-[2017-07-01 17:37:04.949] [INFO] protractorLog4js - ------------Expect : Customer Account No-----------------
-[2017-07-01 17:37:04.949] [INFO] protractorLog4js - ------------Expect: Initial Customer Account Balance-----------------
-[2017-07-01 17:37:04.949] [INFO] protractorLog4js - ------------Expect: Customer Account Currency-----------------
-[2017-07-01 17:37:06.503] [INFO] protractorLog4js - ------------Deposit Menu Button Clicked -----------------------------------------
-[2017-07-01 17:37:06.504] [INFO] protractorLog4js - ------------Enter Amount in Amout textbox -----------------------------------------
-[2017-07-01 17:37:06.504] [INFO] protractorLog4js - ------------Deposit button Clicked -----------------------------------------
-[2017-07-01 17:37:06.504] [INFO] protractorLog4js - ------------Exppect : Deposit Message -----------------------------------------
+[2017-07-02 17:05:06.916] [INFO] protractorLog4js - ------------LAUNCHED URL-----------------------------------------
+[2017-07-02 17:05:15.219] [INFO] protractorLog4js - ------------Expect: Bank Name Verify-----------------------------------------
+[2017-07-02 17:05:15.223] [INFO] protractorLog4js - ------------Expect: Customer LogIn button Verify-----------------------------------------
+[2017-07-02 17:05:15.227] [INFO] protractorLog4js - ------------Expect: Bank Manager LogIn button Verify-----------------------------------------
+[2017-07-02 17:05:16.704] [INFO] protractorLog4js - ------------Customer Button Click-----------------
+[2017-07-02 17:05:16.704] [INFO] protractorLog4js - ------------Select Name from Customer Dropdown-----------------
+[2017-07-02 17:05:16.704] [INFO] protractorLog4js - ------------Click on Customer LogIN button-----------------
+[2017-07-02 17:05:16.708] [INFO] protractorLog4js - ------------Expect : Customer Account No-----------------
+[2017-07-02 17:05:16.712] [INFO] protractorLog4js - ------------Expect: Initial Customer Account Balance-----------------
+[2017-07-02 17:05:16.712] [INFO] protractorLog4js - ------------Expect: Customer Account Currency-----------------
+[2017-07-02 17:05:18.294] [INFO] protractorLog4js - ------------Deposit Menu Button Clicked -----------------------------------------
+[2017-07-02 17:05:18.294] [INFO] protractorLog4js - ------------Enter Amount in Amout textbox -----------------------------------------
+[2017-07-02 17:05:18.294] [INFO] protractorLog4js - ------------Deposit button Clicked -----------------------------------------
+[2017-07-02 17:05:18.294] [INFO] protractorLog4js - ------------Exppect : Deposit Message -----------------------------------------
+[2017-07-02 17:07:56.643] [INFO] protractorLog4js - ------------LAUNCHED URL-----------------------------------------
+[2017-07-02 17:08:03.786] [INFO] protractorLog4js - ------------Expect: Bank Name Verify-----------------------------------------
+[2017-07-02 17:08:03.790] [INFO] protractorLog4js - ------------Expect: Customer LogIn button Verify-----------------------------------------
+[2017-07-02 17:08:03.790] [INFO] protractorLog4js - ------------Expect: Bank Manager LogIn button Verify-----------------------------------------
+[2017-07-02 17:08:05.250] [INFO] protractorLog4js - ------------Customer Button Click-----------------
+[2017-07-02 17:08:05.254] [INFO] protractorLog4js - ------------Select Name from Customer Dropdown-----------------
+[2017-07-02 17:08:05.254] [INFO] protractorLog4js - ------------Click on Customer LogIN button-----------------
+[2017-07-02 17:08:05.258] [INFO] protractorLog4js - ------------Expect : Customer Account No-----------------
+[2017-07-02 17:08:05.258] [INFO] protractorLog4js - ------------Expect: Initial Customer Account Balance-----------------
+[2017-07-02 17:08:05.262] [INFO] protractorLog4js - ------------Expect: Customer Account Currency-----------------
+[2017-07-02 17:08:06.994] [INFO] protractorLog4js - ------------Deposit Menu Button Clicked -----------------------------------------
+[2017-07-02 17:08:06.994] [INFO] protractorLog4js - ------------Enter Amount in Amout textbox -----------------------------------------
+[2017-07-02 17:08:06.994] [INFO] protractorLog4js - ------------Deposit button Clicked -----------------------------------------
+[2017-07-02 17:08:06.994] [INFO] protractorLog4js - ------------Exppect : Deposit Message -----------------------------------------
+[2017-07-02 17:09:30.341] [INFO] protractorLog4js - ------------LAUNCHED URL-----------------------------------------
+[2017-07-02 17:09:36.528] [INFO] protractorLog4js - ------------Expect: Bank Name Verify-----------------------------------------
+[2017-07-02 17:09:36.532] [INFO] protractorLog4js - ------------Expect: Customer LogIn button Verify-----------------------------------------
+[2017-07-02 17:09:36.532] [INFO] protractorLog4js - ------------Expect: Bank Manager LogIn button Verify-----------------------------------------
+[2017-07-02 17:09:37.430] [INFO] protractorLog4js - ------------Customer Button Click-----------------
+[2017-07-02 17:09:37.430] [INFO] protractorLog4js - ------------Select Name from Customer Dropdown-----------------
+[2017-07-02 17:09:37.430] [INFO] protractorLog4js - ------------Click on Customer LogIN button-----------------
+[2017-07-02 17:09:37.445] [INFO] protractorLog4js - ------------Expect : Customer Account No-----------------
+[2017-07-02 17:09:37.445] [INFO] protractorLog4js - ------------Expect: Initial Customer Account Balance-----------------
+[2017-07-02 17:09:37.445] [INFO] protractorLog4js - ------------Expect: Customer Account Currency-----------------
+[2017-07-02 17:09:39.369] [INFO] protractorLog4js - ------------Deposit Menu Button Clicked -----------------------------------------
+[2017-07-02 17:09:39.369] [INFO] protractorLog4js - ------------Enter Amount in Amout textbox -----------------------------------------
+[2017-07-02 17:09:39.369] [INFO] protractorLog4js - ------------Deposit button Clicked -----------------------------------------
+[2017-07-02 17:09:39.369] [INFO] protractorLog4js - ------------Exppect : Deposit Message -----------------------------------------
+[2017-07-02 17:13:19.691] [INFO] protractorLog4js - ------------LAUNCHED URL-----------------------------------------
+[2017-07-02 17:13:26.791] [INFO] protractorLog4js - ------------Expect: Bank Name Verify-----------------------------------------
+[2017-07-02 17:13:26.800] [INFO] protractorLog4js - ------------Expect: Customer LogIn button Verify-----------------------------------------
+[2017-07-02 17:13:26.800] [INFO] protractorLog4js - ------------Expect: Bank Manager LogIn button Verify-----------------------------------------
+[2017-07-02 17:13:27.771] [INFO] protractorLog4js - ------------Customer Button Click-----------------
+[2017-07-02 17:13:27.771] [INFO] protractorLog4js - ------------Select Name from Customer Dropdown-----------------
+[2017-07-02 17:13:27.771] [INFO] protractorLog4js - ------------Click on Customer LogIN button-----------------
+[2017-07-02 17:13:27.771] [INFO] protractorLog4js - ------------Expect : Customer Account No-----------------
+[2017-07-02 17:13:27.771] [INFO] protractorLog4js - ------------Expect: Initial Customer Account Balance-----------------
+[2017-07-02 17:13:27.771] [INFO] protractorLog4js - ------------Expect: Customer Account Currency-----------------
+[2017-07-02 17:13:29.791] [INFO] protractorLog4js - ------------Deposit Menu Button Clicked -----------------------------------------
+[2017-07-02 17:13:29.791] [INFO] protractorLog4js - ------------Enter Amount in Amout textbox -----------------------------------------
+[2017-07-02 17:13:29.791] [INFO] protractorLog4js - ------------Deposit button Clicked -----------------------------------------
+[2017-07-02 17:13:29.791] [INFO] protractorLog4js - ------------Exppect : Deposit Message -----------------------------------------
