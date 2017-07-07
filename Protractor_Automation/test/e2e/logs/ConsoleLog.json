@@ -6,7 +6,7 @@
         "passed": true
       }
     ],
-    "duration": 8042
+    "duration": 5488
   },
   {
     "description": "Bank homepage should verify the Customer LogIn button click",
@@ -15,7 +15,7 @@
         "passed": true
       }
     ],
-    "duration": 2020
+    "duration": 1281
   },
   {
     "description": "Bank homepage should verify Deposit Amount",
@@ -24,6 +24,24 @@
         "passed": true
       }
     ],
-    "duration": 1087
+    "duration": 700
+  },
+  {
+    "description": "Bank homepage should verify Withdrawl amount",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 620
+  },
+  {
+    "description": "Bank homepage should verify Transaction amount",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 6
   }
 ]

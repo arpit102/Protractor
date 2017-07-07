@@ -5,7 +5,7 @@ exports.config = {
 	
 	resultJsonOutputFile:'logs/ConsoleLog.json',
 	
-  directConnect: true,
+    directConnect: true,
 
     params: require('./data/testdata.json'),
 
