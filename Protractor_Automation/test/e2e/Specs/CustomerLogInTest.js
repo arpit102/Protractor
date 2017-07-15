@@ -90,13 +90,25 @@ describe('Bank homepage', function () {
 		expect(customerPage.accntBalancetxt).toEqual('0');
 		browser.logger.info("------------Expect:  Customer Account Balance after withdrwal should Zero-----------------");
 	});
-	
+
 	//Validate the Transaction
 	it('should verify Transaction amount', function () {
 		
+		customerPage.transactionMenubtnClick;
+		browser.logger.info("------------Withdrawl Menu Button Clicked -----------------------------------------");
+		
+		expect(customerPage.transactionsList.count()).toEqual(2);
+		browser.logger.info("------------Expect:Transaction count is 2 -----------------------------------------");
+		
+		
+		browser.logger.info(customerPage.transactionsAt(0));
+		
+		browser.logger.info("------------Transaction1 Detail END -----------------------------------------");
+		
+		browser.logger.info(customerPage.transactionsAt(1));
+		
+		browser.logger.info("------------Transaction2 Detail END -----------------------------------------");
+		
 	});
-	
-	
-	
 
 });

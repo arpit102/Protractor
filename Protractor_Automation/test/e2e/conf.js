@@ -24,8 +24,8 @@ exports.config = {
 					level: "ALL",
                     filename: 'logs/ExecutionLog.log',
                     category: 'protractorLog4js',
-                    maxLogSize: 20480,
-                    backups: 10
+                    //maxLogSize: 20480,
+                    backups: 10,
                 },
 				
 				

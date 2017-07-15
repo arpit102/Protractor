@@ -3,88 +3,159 @@
  */
 'use strict';
 
-var customerLogInPage = function () {
-
-
-};
+var customerLogInPage = function () {};
 
 customerLogInPage.prototype = Object.create({}, {
-	
-	
 
-    drpdownName:{ get: function () { return element.one(by.model('custId')); }},
+		drpdownName: {
+			get: function () {
+				return element.one(by.model('custId'));
+			}
+		},
 
-    selectName: { get: function () { return element(by.model('custId')).$('[value="2"]').click(); }},
+		selectName: {
+			get: function () {
+				return element(by.model('custId')).$('[value="2"]').click();
+			}
+		},
 
-    userLogIn: { get: function () { return element(by.css('button.btn-default')).click(); }},
+		userLogIn: {
+			get: function () {
+				return element(by.css('button.btn-default')).click();
+			}
+		},
 
-    accntNo: { get: function () { return element(by.css('strong.ng-binding:nth-child(1)'))}},
+		accntNo: {
+			get: function () {
+				return element(by.css('strong.ng-binding:nth-child(1)'))
+			}
+		},
 
-    accntNotxt:{get: function (accntNobtntxt) {
-        return this.accntNo.getText();
-    }},
+		accntNotxt: {
+			get: function (accntNobtntxt) {
+				return this.accntNo.getText();
+			}
+		},
 
-    accntBalance: { get: function () { return element(by.css('strong.ng-binding:nth-child(2)'))}},
+		accntBalance: {
+			get: function () {
+				return element(by.css('strong.ng-binding:nth-child(2)'))
+			}
+		},
 
-    accntBalancetxt:{get: function () {
-        return this.accntBalance.getText();
-    }},
+		accntBalancetxt: {
+			get: function () {
+				return this.accntBalance.getText();
+			}
+		},
 
-    accntCurrency: { get: function () { return element(by.css('strong.ng-binding:nth-child(3)'))}},
+		accntCurrency: {
+			get: function () {
+				return element(by.css('strong.ng-binding:nth-child(3)'))
+			}
+		},
 
-    accntCurrencytxt:{get: function () {
-        return this.accntCurrency.getText();
-    }},
+		accntCurrencytxt: {
+			get: function () {
+				return this.accntCurrency.getText();
+			}
+		},
 
+		depositMenubtn: {
+			get: function () {
+				return element(by.css('[ng-click="deposit()"]'))
+			}
+		},
+		transactionMenubtn: {
+			get: function () {
+				return element(by.css('[ng-click="transactions()"]'))
+			}
+		},
+		withdrawlMenubtn: {
+			get: function () {
+				return element(by.css('[ng-click="withdrawl()"]'))
+			}
+		},
 
-    depositMenubtn: {get : function () { return element(by.css('[ng-click="deposit()"]'))}},
-    transactionMenubtn: {get : function () { return element(by.css('[ng-click="transactions()"]'))}},
-    withdrawlMenubtn:{get : function () { return element(by.css('[ng-click="withdrawl()"]'))}},
+		depositMenubtnClick: {
+			get: function () {
 
+				return this.depositMenubtn.click();
+			}
+		},
+		transactionMenubtnClick: {
+			get: function () {
 
-    depositMenubtnClick:{get : function () {
+				return this.transactionMenubtn.click();
+			}
+		},
+		withdrawlMenubtnClick: {
+			get: function () {
 
-        return this.depositMenubtn.click();
-    }},
-    transactionMenubtnClick:{get : function () {
+				return this.withdrawlMenubtn.click();
+			}
+		},
 
-        return this.transactionMenubtn.click();
-    }},
-    withdrawlMenubtnClick:{get : function () {
+		depositSubmitbtn: {
+			get: function () {
+				return element(by.css('.btn.btn-default'))
+			}
+		},
 
-        return this.withdrawlMenubtn.click();
-    }},
+		depositSubmitbtnClick: {
+			get: function () {
 
+				return this.depositSubmitbtn.click();
+			}
+		},
 
-    depositSubmitbtn: {get : function () { return element(by.css('.btn.btn-default'))}},
+		amounttodeposit: {
+			get: function () {
+				return element(by.model('amount'));
+			}
+		},
 
-    depositSubmitbtnClick:{get : function () {
+		depositAmount: {
+			value: function () {
 
-        return this.depositSubmitbtn.click();
-    }},
+				this.depositMenubtnClick;
+				this.amounttodeposit.sendKeys(500);
+				this.depositSubmitbtnClick;
 
-    amounttodeposit: { get: function () { return element(by.model('amount')); }},
-	
-	
-    depositAmount: { value: function () {
+			}
+		},
 
-        this.depositMenubtnClick;
-        this.amounttodeposit.sendKeys(500);
-        this.depositSubmitbtnClick;
+		test: {
+			value: function () {
 
-    }},
-	
-	 test: { value: function () {
+				var tt = customerPage.amounttodeposit.getAttribute('ng-model')
 
-	  var tt=customerPage.amounttodeposit.getAttribute('ng-model')
-       
-    }},
+			}
+		},
 
-    depositMessage: {get : function () { return element(by.css('[ng-show=message]'))}},
+		depositMessage: {
+			get: function () {
+				return element(by.css('[ng-show=message]'))
+			}
+		},
 
-    depositMessagetxt :{get: function () {
-        return this.depositMessage.getText();
-    }},
-});
+		depositMessagetxt: {
+			get: function () {
+				return this.depositMessage.getText();
+			}
+		},
+		
+		transactionsList: {
+			get: function () {
+				return element.all(by.repeater('tx in transactions'));
+			}
+		},
+		transactionsAt: {
+			value: function (idx) {
+				return this.transactionsList.get(idx).getText();
+			}
+		},
+
+	});
 
 module.exports = customerLogInPage;
